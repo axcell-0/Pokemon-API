@@ -1,2 +1,2 @@
-const appId = "xJHvoU3Mdm0mPXdsrlTl";
+const appId = 'xJHvoU3Mdm0mPXdsrlTl';
 export default appId;
