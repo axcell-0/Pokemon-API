@@ -13,3 +13,26 @@ header {
     background-size: cover;
     background-position: center;
   }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
