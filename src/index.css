@@ -1,22 +1,38 @@
-:root {
-  --primary: #ddd;
-  --secondary: #e5d4d4;
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-html,
-body {
+.logo {
+  width: 150px;
+  height: 50px;
+  background-image: url("./assets/Pokédex_logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
   margin: 0;
   padding: 0;
-  background-color: var(--primary);
-}
-
-body {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
-* {
-  box-sizing: border-box;
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.menu-toggle {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
 }
