@@ -1,5 +1,7 @@
+import createPopup from './createPopup.js';
 import handleLike from './handleLike.js';
 import fetchLikes from './fetchLikes.js';
+import createReservationPopup from './reservationPopup.js';
 
 const renderStructure = async (data) => {
   const list = document.getElementById('card-container');
@@ -37,11 +39,11 @@ const renderStructure = async (data) => {
     const likeButton = item.querySelector('.likes');
     likeButton.addEventListener('click', () => handleLike(id));
 
-     const commentButton = item.querySelector('.btn');
-     commentButton.addEventListener('click', () => createPopup(pokemonData));
+    const commentButton = item.querySelector('.btn');
+    commentButton.addEventListener('click', () => createPopup(pokemonData));
 
-     const reserveButton = item.querySelector('.btn-reserve');
-     reserveButton.addEventListener('click', () => createReservationPopup(pokemonData));
+    const reserveButton = item.querySelector('.btn-reserve');
+    reserveButton.addEventListener('click', () => createReservationPopup(pokemonData));
 
     fetchLikes(id);
   });
