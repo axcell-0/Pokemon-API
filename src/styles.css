@@ -1,0 +1,151 @@
+:root {
+  --primary-color: #007bff;
+  --text-color: #333;
+}
+
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 7rem;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.grid-item img,
+.popup img {
+  width: 50%;
+  height: auto;
+  transition: transform 0.3s;
+  transform: rotateY(-180deg);
+}
+
+.grid-item:hover img,
+.popup img:hover {
+  transform: rotateY(180deg);
+}
+
+.grid-item h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  #card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.space-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.likes {
+  position: relative;
+  color: red;
+  margin-right: 0.5rem;
+}
+
+.likes-count {
+  position: absolute;
+  font-size: x-small;
+}
+
+.likes:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  background-image: url("./assets/Pokédex_logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
