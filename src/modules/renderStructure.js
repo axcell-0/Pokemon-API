@@ -1,4 +1,3 @@
-import createPopup from './createPopup.js';
 import handleLike from './handleLike.js';
 import fetchLikes from './fetchLikes.js';
 
