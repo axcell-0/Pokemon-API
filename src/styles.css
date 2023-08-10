@@ -120,10 +120,6 @@ header {
   display: none;
 }
 
-ul {
-  list-style-type: none;
-}
-
 @media (max-width: 600px) {
   .menu {
     display: none;
