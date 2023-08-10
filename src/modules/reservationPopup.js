@@ -69,7 +69,8 @@ const createReservationPopup = (pokemon) => {
     const endDate = endDateInput.value.trim();
     if (name !== '' && startDate !== '' && endDate !== '') {
       try {
-        await addReservation(pokemon.id, { username: name, date_start: startDate, date_end: endDate });
+        await addReservation(pokemon.id,
+          { username: name, date_start: startDate, date_end: endDate });
         nameInput.value = '';
         startDateInput.value = '';
         endDateInput.value = '';
