@@ -37,11 +37,11 @@ const renderStructure = async (data) => {
     const likeButton = item.querySelector('.likes');
     likeButton.addEventListener('click', () => handleLike(id));
 
-    // const commentButton = item.querySelector('.btn');
-    // commentButton.addEventListener('click', () => createPopup(pokemonData));
+     const commentButton = item.querySelector('.btn');
+     commentButton.addEventListener('click', () => createPopup(pokemonData));
 
-    // const reserveButton = item.querySelector('.btn-reserve');
-    // reserveButton.addEventListener('click', () => createReservationPopup(pokemonData));
+     const reserveButton = item.querySelector('.btn-reserve');
+     reserveButton.addEventListener('click', () => createReservationPopup(pokemonData));
 
     fetchLikes(id);
   });
