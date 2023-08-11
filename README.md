@@ -136,7 +136,7 @@ To test this application, run:
 
 You can deploy this project using:
 
- [] coming soon
+ - npm run deploy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,6 +149,10 @@ You can deploy this project using:
 - GitHub: [@githubhandle](https://github.com/axcell-0)
 - Twitter: [@twitterhandle](https://twitter.com/noumbuh)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/thierry-noumbuh-a44173257/)
+
+- Github: [Young-Gaius](https://github.com/Young-Gaius)
+- Linkedin: [Young-gaius](https://www.linkedin.com/in/young-gaius-205624268/)
+- Twitter: [Young Gaius](https://twitter.com/EhuYoung)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
