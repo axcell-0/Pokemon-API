@@ -72,7 +72,9 @@ Visual Studia Code, HTML/JavaScript linters, ES6, Webpack, API.
 
 # LIVE DEMO 
 
-- [clickhere] (#https://axcell-0.github.io/Pokemon-API/)
+- [clickhere](https://axcell-0.github.io/Pokemon-API/)
+- [video](https://drive.google.com/file/d/1fz-eplg2tfQMJXzAS9Tw96qTq3BsBEKT/view?usp=sharing)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
