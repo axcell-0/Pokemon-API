@@ -141,14 +141,15 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Author <a name="author"></a>
+## Authors <a name="author"></a>
 
 ## 👤 THIERRY NOUMBUH (AXCELL EVANS)
-## 👤 YOUNG GAIUS
 
 - GitHub: [@githubhandle](https://github.com/axcell-0)
 - Twitter: [@twitterhandle](https://twitter.com/noumbuh)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/thierry-noumbuh-a44173257/)
+
+## 👤 YOUNG GAIUS
 
 - Github: [Young-Gaius](https://github.com/Young-Gaius)
 - Linkedin: [Young-gaius](https://www.linkedin.com/in/young-gaius-205624268/)
